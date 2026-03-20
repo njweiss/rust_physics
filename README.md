@@ -2,7 +2,7 @@
 
 A custom-built, multithreaded 3D rigid body physics engine written in Rust. This project implements a full physics pipeline from scratch—including broad-phase spatial hashing, narrow-phase GJK/EPA collision detection, and a parallelized sequential impulse solver. 
 
-Beyond standard macroscopic physics, this engine includes features inspired by molecular dynamics, such as compound rigid body support for complex molecular structures and a kinetic thermostat for temperature control. It uses [`nalgebra`](https://nalgebra.org/) for linear algebra and [`kiss3d`](https://kiss3d.org/) for real-time visualization.
+Beyond standard macroscopic physics, this engine includes features inspired by molecular dynamics, such as compound rigid body support for complex molecular structures and a kinetic thermostat for temperature control. It uses [`nalgebra`](https://nalgebra.rs/) for linear algebra and [`kiss3d`](https://kiss3d.rs/) for real-time visualization.
 
 ## Features
 
