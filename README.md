@@ -2,7 +2,6 @@
 
 A custom-built, multithreaded 3D rigid body physics engine written in Rust. This project implements a full physics pipeline from scratch—including broad-phase spatial hashing, narrow-phase GJK/EPA collision detection, and a parallelized sequential impulse solver. 
 
-Beyond standard macroscopic physics, this engine includes features inspired by molecular dynamics, such as compound rigid body support for complex molecular structures and a kinetic thermostat for temperature control. It uses [`nalgebra`](https://nalgebra.rs/) for linear algebra and [`kiss3d`](https://kiss3d.rs/) for real-time visualization.
 
 ## Features
 
@@ -22,14 +21,12 @@ Beyond standard macroscopic physics, this engine includes features inspired by m
 ## Getting Started
 
 ### Prerequisites
-Make sure you have [Rust and Cargo installed](https://rustup.rs/). You will also need the standard build dependencies for `kiss3d` (e.g., CMake, basic graphics libraries depending on your OS).
+Make sure you have [Rust and Cargo installed](https://rustup.rs/). 
 
-### Running the Simulation
-Because physics simulations and iterative solvers are computationally expensive, it is heavily recommended to run the project in release mode for a smooth framerate.
 
 ```bash
 # Clone the repository
-git clone [https://github.com/yourusername/rust_physics.git](https://github.com/yourusername/rust_physics.git)
+git clone [https://github.com/njweiss/rust_physics.git](https://github.com/njweiss/rust_physics.git)
 cd rust_physics
 
 # Run the simulation in release mode
